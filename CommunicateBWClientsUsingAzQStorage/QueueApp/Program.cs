@@ -8,6 +8,8 @@ namespace QueueApp
 {
     class Program
     {
+        // Connection string
+
         private const string ConnectionString = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=lava1articles;AccountKey=nLzVLdz9zxWmwM0rVHde9uJU4iPrstF3Eidy4fVUcKIO2zIgNI+AnGJ8WjHhH/j+ZlUHYZ1XoWlSPag6c4XJIA==";
 
         static void Main(string[] args)
