@@ -16,7 +16,7 @@ namespace QueueApp
         {
             string value = Console.ReadLine();
             SendArticleAsync(value).Wait();
-            Console.WriteLine($"Sent messages: {value}");
+            Console.WriteLine($"Sent message...: {value}");
 
             Console.WriteLine($"Retrieving messages....");
 
