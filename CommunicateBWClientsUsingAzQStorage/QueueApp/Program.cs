@@ -22,7 +22,6 @@ namespace QueueApp
 
             string message = ReceiveArticleAsync().Result;
             Console.WriteLine(message);
-            Console.WriteLine(message);
         }
 
         static async Task SendArticleAsync(string message)
